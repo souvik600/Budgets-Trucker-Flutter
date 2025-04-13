@@ -1,16 +1,69 @@
 # mass_manager
 
-A new Flutter project.
+🍛 Mass Manager – Meal & Expense Tracking App
 
-## Getting Started
+Mass Manager is a Flutter and Firebase-based mobile app designed to simplify meal and expense management in shared living spaces like hostels, dormitories, and mess systems. It provides real-time tracking, role-based access, and a modern, intuitive UI.
+🔑 Core Features
+🧾 Budget, Income & Expense Management
 
-This project is a starting point for a Flutter application.
+    Add and manage weekly/monthly budgets and incomes.
 
-A few resources to get you started if this is your first Flutter project:
+    Track categorized expenses:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+        🛒 Bazaar / Meal Purchases
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+        💡 Utility Bills (Electricity, WiFi, Gas)
+
+        🧹 Other Expenses (Cleaning, Subscriptions)
+
+🍽️ Daily Meal Tracking & Calculation
+
+    Members input daily meal counts (breakfast, lunch, dinner).
+
+    Auto meal rate: Total Bazaar Expense ÷ Total Meals
+
+    Real-time per-member meal cost updates.
+
+    Daily and monthly meal summaries.
+
+👥 Member Management
+
+    Admin can add/edit/remove members and assign roles.
+
+    Members can view their own meals, charges, and balances.
+
+    Optional: Allow members to edit their meal entries.
+
+📊 Reports & Analytics
+
+    Visual charts (pie/bar) for:
+
+        Expense breakdown
+
+        Meal distribution
+
+        Member contributions
+
+    Export monthly reports as PDF or CSV.
+
+🔐 Authentication & Roles
+
+    Firebase Email/Password authentication.
+
+    Role-based access:
+
+        Admin: Full control
+
+        Member: View & input permissions
+
+🔔 Additional Features
+
+    Daily meal entry reminders.
+
+    Special day notes (e.g., guests, trips).
+
+    Offline-first support (auto-sync when online).
+
+    Dark mode and theme customization.
+
+    Profile section and optional backup/restore.
