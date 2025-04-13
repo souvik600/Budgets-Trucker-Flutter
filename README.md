@@ -1,5 +1,9 @@
 # mass_manager
 
+Hey Developers, 
+ I am Souvik das.
+ Soucikdas0600@gmail.com
+
 🍛 Mass Manager – Meal & Expense Tracking App
 
 Mass Manager is a Flutter and Firebase-based mobile app designed to simplify meal and expense management in shared living spaces like hostels, dormitories, and mess systems. It provides real-time tracking, role-based access, and a modern, intuitive UI.
